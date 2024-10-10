@@ -17,5 +17,18 @@ The Solana Staking Derivatives Protocol is a decentralized application (dApp) th
 7. Create referral links to incentivize new users.
 
  The program is written in Rust, with a corresponding client written in TypeScript for interacting with the program on Solana Playground.
+
+ ## Features
+
+1. **Minting Derivative Tokens:** Users can deposit SOL and mint derivative tokens representing their staked assets.
+2. **Rewards Calculation and Compounding:** Staking rewards are calculated and updated periodically. Users can compound their rewards.
+3. **Emergency Unstaking:** Users can unstake their SOL instantly with an emergency penalty.
+4. **Referral Program:** Users can create referral links to incentivize new users to stake.
+5. **Governance Mechanism:** The program includes a simple voting mechanism where users can vote on governance proposals.
+6. **Checkpoint-Based Rewards Distribution:** Rewards are distributed periodically using a checkpoint system for optimization.
+7. **Advanced Fee Management:** Fees are accumulated and used to fund development or other purposes
+
+## License 
+This Project is under the **MIT LICENSE**
    
 
