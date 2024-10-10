@@ -14,8 +14,8 @@ mod error;
 mod utils;
 mod fees;
 mod rewards;
-mod governance; // New module for governance
-mod referral;   // New module for referral program
+mod governance; 
+mod referral;   
 
 entrypoint!(process_instruction);
 
