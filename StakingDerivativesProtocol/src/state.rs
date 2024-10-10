@@ -1,4 +1,3 @@
-// src/state.rs
 
 use solana_program::program_pack::{IsInitialized, Pack, Sealed};
 use solana_program::pubkey::Pubkey;
